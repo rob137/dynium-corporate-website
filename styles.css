@@ -17,12 +17,20 @@ html, body {
   height: 75px;
   position: relative;
   display: flex;
+  justify-content: center;
+}
+
+.header_inner {
+  height: 100%;
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 30px;
 }
 
-.header_title {
+.header_inner_title {
   margin: 0;
 }
 
@@ -39,13 +47,31 @@ html, body {
 }
 
 @media screen and (min-width: 576px) {
+  .header_inner {
+    max-width: 540px;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .header_inner {
+    max-width: 720px;
+  }
 }
 
 @media screen and (min-width: 992px) {
+  .header_inner {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header_inner {
+    max-width: 1140px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  .header_inner {
+    max-width: 1280px;
+  }
 }
