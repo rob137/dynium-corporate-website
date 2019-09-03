@@ -45,6 +45,7 @@ section {
   z-index: 1;
   display: flex;
   justify-content: center;
+  user-select: none;
 }
 
 .header_inner {
