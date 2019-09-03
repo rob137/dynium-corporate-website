@@ -41,7 +41,9 @@ a {
 
 /* For now - to lengthen page */
 section {
-  height: 800px;
+  height: 600px;
+  display: flex;
+  align-items: center;
 }
 
 .header {
