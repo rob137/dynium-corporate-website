@@ -37,3 +37,15 @@ html, body {
   background-color: aliceblue;
   height: 75px;
 }
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1440px) {
+}
