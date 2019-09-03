@@ -41,9 +41,15 @@ button {
   margin: 0;
 }
 
-.header_inner_menuBtn {
+.header_inner_nav_menuBtn {
   font-size: 20px;
   color: white;
+}
+
+.header_inner_nav_menu {
+  position: absolute;
+  background-color: black;
+  height: 200px;
 }
 
 .main {
