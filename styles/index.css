@@ -45,9 +45,10 @@ a {
 
 /* For now - to lengthen page */
 section {
-  height: 600px;
+  height: 800px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .header {
@@ -83,9 +84,9 @@ section {
 }
 
 .header_inner_nav_menu {
-  width: 140px;
+  width: 150px;
   position: absolute;
-  margin-left: -40px;
+  margin-left: -50px;
   background-color: black;
 }
 
@@ -100,7 +101,7 @@ section {
 
 .main {
   margin-top: 70px;
-  background-color: #ff6358;
+  background-color: #fcfcfc;
   display: flex;
   justify-content: center;
   position: relative;
@@ -108,7 +109,7 @@ section {
 
 .main_inner {
   padding: 30px;
-  background-color: #ff4437;
+  background-color: #ebebeb;
   width: 100%;
 }
 
@@ -116,7 +117,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: aliceblue;
+  background-color: #c0c0c0;
   height: 70px;
 }
 
