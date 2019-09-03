@@ -63,6 +63,7 @@ section {
 .header_inner_nav_menu {
   width: 140px;
   position: absolute;
+  margin-left: -78px;
   background-color: black;
 }
 
