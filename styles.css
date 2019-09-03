@@ -47,9 +47,18 @@ button {
 }
 
 .header_inner_nav_menu {
+  right: 100px;
+  width: 140px;
   position: absolute;
   background-color: black;
-  height: 200px;
+}
+
+.header_inner_nav_menu ul {
+  list-style: none;
+}
+
+.header_inner_nav_menu ul li {
+  cursor: pointer;
 }
 
 .main {
