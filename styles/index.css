@@ -95,8 +95,11 @@ section {
 }
 
 .header_inner_nav_menu ul li {
-  cursor: pointer;
   padding-bottom: 8px;
+}
+
+.header_inner_nav_menu ul li a {
+  cursor: pointer;
 }
 
 .main {
