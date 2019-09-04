@@ -139,6 +139,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
@@ -155,7 +156,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #c0c0c0;
+  background-color: #000;
+  color: white;
   height: 70px;
 }
 
