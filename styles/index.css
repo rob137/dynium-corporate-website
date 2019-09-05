@@ -122,6 +122,10 @@ a {
   background-color: #252525;
 }
 
+.main_section_inner {
+  padding: 0 12px;
+}
+
 .main_section_inner-product {
   display: flex;
   justify-content: flex-end;
