@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-family: century-gothic;
-  color: #1B75BC;
+  color: #f5f5f5;
 }
 
 h2, h3, h4, h5, h6 {
@@ -131,7 +131,6 @@ a {
   justify-content: center;
   background-size: cover;
   background-position: center;
-  border-bottom: 3px solid #1B75BC;
   position: relative;
 }
 
@@ -140,11 +139,11 @@ a {
   background-image: url('../images/sunset-darker.jpeg');
   box-shadow: 0 5px 9px rgba(0,0,0,0.8);
   z-index: 1; /* For box shadow */
-  border-bottom: none;
 }
 
 .main_section-careers {
   background-color: #151515;
+  border-bottom: 3px solid #1B75BC;
 }
 
 .main_section-contact {
@@ -212,6 +211,7 @@ a {
 }
 
 .main_section_inner_content_triple article {
+  text-align: center;
   max-width: 200px;
   min-width: 200px;
   display: flex;
@@ -225,12 +225,13 @@ a {
   flex: 1;
 }
 
-.main_section_inner_content_triple article img {
+.main_section_inner_content_triple_icon {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
   max-height: 50%;
   width: 100%;
-  display: flex;
-  align-self: center;
-  border-radius: 4px 4px 0 0;
+  color: #1B75BC;
 }
 
 .main_section_inner_content_triple_text {
