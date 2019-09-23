@@ -3,8 +3,18 @@
 @import "normalize.css";
 
 @font-face {
-  font-family: roboto;
-  src: url(../fonts/Roboto-Regular.ttf);
+  font-family: phagspa;
+  src: url(../fonts/phagspa.ttf);
+}
+
+@font-face {
+  font-family: bahnschrift;
+  src: url(../fonts/bahnschrift.ttf);
+}
+
+@font-face {
+  font-family: century-gothic;
+  src: url(../fonts/century-gothic.ttf);
 }
 
 * {
@@ -25,13 +35,23 @@ html, body {
 }
 
 body {
-  font-family: roboto;
+  font-family: phagspa;
   color: #151515;
   background-color: green;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
+}
+
+h1 {
+  font-family: century-gothic;
+  color: #1B75BC;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: bahnschrift;
+  font-weight: lighter;
 }
 
 button {
