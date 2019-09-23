@@ -131,6 +131,7 @@ a {
   justify-content: center;
   background-size: cover;
   background-position: center;
+  border-bottom: 3px solid #1B75BC;
   position: relative;
 }
 
@@ -139,6 +140,7 @@ a {
   background-image: url('../images/sunset-darker.jpeg');
   box-shadow: 0 5px 9px rgba(0,0,0,0.8);
   z-index: 1; /* For box shadow */
+  border-bottom: none;
 }
 
 .main_section-careers {
@@ -217,6 +219,8 @@ a {
   margin: 20px;
   max-width: 300px;
   border-radius: 4px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  padding-top: 20px;
   flex: 1;
 }
 
